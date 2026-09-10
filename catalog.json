@@ -1,6 +1,6 @@
 {
   "kit_version": "2026-09-10",
-  "upstream": "https://github.com/matt-crblabs/everyday-agents",
+  "upstream": "https://github.com/crblabs/everyday-agents",
   "routines": [
     { "name": "Email triage", "dir": "routines/email-triage", "tier": "core", "one_line": "Sorts new inbox mail into your labels, daily", "connectors": ["Gmail"], "author": "the kit", "added": "2026-09-10" },
     { "name": "Email cleanup", "dir": "routines/email-cleanup", "tier": "core", "one_line": "Archives stale low-priority mail (never deletes)", "connectors": ["Gmail"], "author": "the kit", "added": "2026-09-10" },

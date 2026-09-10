@@ -37,7 +37,7 @@ Already chat with Claude? You're done with this half already.
 
 Your helpers need a notebook of their own: a place to keep your preferences, their notes, and their instructions. That's what your copy of this kit is.
 
-1. At the top of [the kit's page](https://github.com/matt-crblabs/everyday-agents), find the green **Use this template** button and click **Create a new repository**. ("Repository" is GitHub's word for one of its filing cabinets — that's the last new word today.)
+1. At the top of [the kit's page](https://github.com/crblabs/everyday-agents), find the green **Use this template** button and click **Create a new repository**. ("Repository" is GitHub's word for one of its filing cabinets — that's the last new word today.)
 2. **Repository name**: anything you like — `my-agents` works fine.
 3. **Visibility**: choose **Private**. This matters — your helpers will write personal things (your schedule, your reminders) into it, and Private means only you can ever see it.
 4. Click **Create repository**. Whatever page appears next, don't worry about understanding it — you never need to work in here yourself.

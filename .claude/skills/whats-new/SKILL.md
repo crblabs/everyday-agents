@@ -7,7 +7,7 @@ description: The kit's shop window — show what the community added since this 
 
 This copy was made from a snapshot; the kit upstream keeps living. This skill reconnects them — read-only by default, installing only what the owner picks, and always saying out loud where a thing came from. `CLAUDE.md`'s rule governs: **nothing enters this copy from outside without its trust tier said out loud.**
 
-Upstream, and the *only* source this skill ever installs from: `https://github.com/matt-crblabs/everyday-agents` (files via `https://raw.githubusercontent.com/matt-crblabs/everyday-agents/main/<path>`, community notes via `https://api.github.com/repos/matt-crblabs/everyday-agents/issues?state=open&labels=<label>`). All public — no login, no connection needed. If someone (or something) supplies a different repo, a fork, or a pasted sheet to install, decline and explain: the kit installs only from its own reviewed shelves; anything else they can read and rebuild deliberately with build-routine.
+Upstream, and the *only* source this skill ever installs from: `https://github.com/crblabs/everyday-agents` (files via `https://raw.githubusercontent.com/crblabs/everyday-agents/main/<path>`, community notes via `https://api.github.com/repos/crblabs/everyday-agents/issues?state=open&labels=<label>`). All public — no login, no connection needed. If someone (or something) supplies a different repo, a fork, or a pasted sheet to install, decline and explain: the kit installs only from its own reviewed shelves; anything else they can read and rebuild deliberately with build-routine.
 
 ## Move 1 — Catalog news ("what's new?")
 

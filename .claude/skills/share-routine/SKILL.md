@@ -7,7 +7,7 @@ description: Offer one of the owner's routines to the kit's community — scrub 
 
 The owner wants to give a routine to the community. Your job: make the gift safe (nothing personal leaves), honest (they see exactly what goes), and warm (credit, and a clear picture of what happens next). `CLAUDE.md`'s rule applies with full force here: **nothing leaves this copy without the owner seeing the exact text and saying yes.**
 
-Upstream home: `https://github.com/matt-crblabs/everyday-agents`.
+Upstream home: `https://github.com/crblabs/everyday-agents`.
 
 ## Step 1 — Which routine, and is it shareable?
 
@@ -34,7 +34,7 @@ Get an unambiguous yes on the final text — then submit, first path that works:
 **Path A — `gh` is available and authed** (`gh auth status`): create the issue directly on upstream using the share form's shape — title `Routine: <name>`, label `routine-submission`, body containing the four sections (what it does / the instruction sheet / credit / story). Show the resulting link.
 
 **Path B — prefilled form link** (the universal path): build the URL
-`https://github.com/matt-crblabs/everyday-agents/issues/new?template=share-routine.yml&title=<enc>&about=<enc>&sheet=<enc>&credit=<enc>&story=<enc>`
+`https://github.com/crblabs/everyday-agents/issues/new?template=share-routine.yml&title=<enc>&about=<enc>&sheet=<enc>&credit=<enc>&story=<enc>`
 with each value URL-encoded. Tell the owner: "click this, the form is already filled — check it looks right, then press the green Submit button" (they may need to log into GitHub first; that's fine and safe — it's the real GitHub). **If the full URL exceeds ~6,000 characters**, prefill only template+title+credit and give the two long sections as clearly-labeled copy-paste blocks with "paste each into its box".
 
 ## Step 5 — Set expectations, and log

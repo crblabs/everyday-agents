@@ -7,7 +7,7 @@ description: Send the community a wish ("I wish a helper could…"), a field rep
 
 Three kinds of gift travel through this skill, and the owner may not know they're contributing at all — they're just talking. Recognize which one it is, offer to pass it on, and never post without the exact text approved. A wish from someone who can't build anything is worth as much as a routine from someone who can — say so when it fits.
 
-Upstream home: `https://github.com/matt-crblabs/everyday-agents`.
+Upstream home: `https://github.com/crblabs/everyday-agents`.
 
 ## Route by what they're expressing
 
@@ -25,7 +25,7 @@ Draft the submission in the owner's own words as much as possible — lived deta
 
 **Path A — `gh` available and authed**: create the issue on upstream with the matching label (`wish` / `field-report` / `confusion`), title prefix matching the form (`Wish: …` / `Field report: …` / `Lost at: …`), body carrying the form's sections. Show the link.
 
-**Path B — prefilled form link**: `https://github.com/matt-crblabs/everyday-agents/issues/new?template=<form>.yml&title=<enc>&<field-id>=<enc>&…` with values URL-encoded — "click, check, press the green Submit button" (a GitHub login prompt is normal and safe). Over ~6,000 characters, prefill what fits and give the rest as labeled copy-paste blocks.
+**Path B — prefilled form link**: `https://github.com/crblabs/everyday-agents/issues/new?template=<form>.yml&title=<enc>&<field-id>=<enc>&…` with values URL-encoded — "click, check, press the green Submit button" (a GitHub login prompt is normal and safe). Over ~6,000 characters, prefill what fits and give the rest as labeled copy-paste blocks.
 
 ## Close
 
