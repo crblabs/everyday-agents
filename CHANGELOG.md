@@ -2,6 +2,10 @@
 
 Newest first. Your **kit-news** helper reads this page — and "what's new?" said to Claude walks you through anything here.
 
+## 2026-09-10 — Portable on purpose
+
+- People kept saying "it's great but I use Codex/Grok" — so the kit now says exactly what travels. New [`AGENTS.md`](AGENTS.md) orients any AI agent (the flows use the open Agent Skills format that Codex, Cursor, and 30+ tools read); new [runtimes map](docs/runtimes.md) names the four things a scheduler must provide, which runtimes have the ingredients, and the honest status of each: **Claude is the verified reference; Codex and Grok ports are open wishes waiting for a champion.** The safety floor travels as prose — the map says so plainly.
+
 ## 2026-09-10 — Four startup packs
 
 - New packs for tech/AI startup people: [🚀 Founder](packs/founder.md), [🧑‍💻 Builder](packs/builder.md), [🤖 AI-lab](packs/ai-lab.md), [📣 Go-to-market](packs/go-to-market.md) — grounded in what people actually run on schedules (briefings, follow-up tracking, competitor and model-release watching, CI digests). Honest about maturity: ✅ installs, 🔨 twenty-minute builds, and 🌠 wishes for the connections that don't exist yet (Slack/Discord team pulse, API billing sentinel, X/LinkedIn social radar) — each filed openly in the tracker for anyone to champion.

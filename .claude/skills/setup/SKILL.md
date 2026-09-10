@@ -59,6 +59,8 @@ Convert each agreed schedule to a UTC cron expression (minimum interval: 1 hour;
 
 **Path B — it isn't**: give the owner their finished prompt in a copy-paste block plus exact click-by-click steps for [claude.ai/code/routines](https://claude.ai/code/routines): New routine → paste the prompt → pick their repository → set the schedule → attach the connectors → save.
 
+**On a non-Claude runtime**: the scheduling step is the one that differs — use your runtime's equivalent (Codex automations, Grok bot routines; `docs/runtimes.md` maps them) and be honest that the kit is verified on Claude, unverified here.
+
 ## Step 6 — Record everything
 
 Write, then commit (message: `setup <YYYY-MM-DD>: onboarded <first name>, installed <routine names>`):

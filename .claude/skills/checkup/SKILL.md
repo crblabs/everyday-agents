@@ -10,7 +10,7 @@ The owner wants to know things are working, or why one didn't. Answer both the w
 ## Gather
 
 1. **The notebook's claim**: `my/routines.md` — what *should* be installed and on what schedule.
-2. **The scheduler's truth**: if the schedule skill is available, use it to list the routines and their recent runs; a routine the notebook lists but the scheduler doesn't (or vice versa), or one shown disabled that should be on, is a finding.
+2. **The scheduler's truth**: if the schedule skill is available, use it to list the routines and their recent runs; a routine the notebook lists but the scheduler doesn't (or vice versa), or one shown disabled that should be on, is a finding. (On a runtime without that skill, skip this source — the paper trail below carries the diagnosis alone; `docs/runtimes.md` has the context.)
 3. **The paper trail**: `git log` and `my/memory/` — did each routine leave its expected entries at its expected cadence? A gap where a run should be is a finding even if the scheduler looks fine (remember: a missing report means a failed run, never a quiet one).
 4. For anything that failed, dig into the failing run's log if you can, and classify plainly:
    - **Account disconnected** → fix at [claude.ai/customize/connectors](https://claude.ai/customize/connectors)

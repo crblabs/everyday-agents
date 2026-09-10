@@ -56,7 +56,7 @@ If step 3 exposed material the routine needs between runs (a topics list, a set 
 
 ## Step 5 — Schedule, record, close
 
-1. Convert the agreed schedule to UTC (confirm the local→UTC conversion in words), then schedule it: the **schedule skill** when available — routine name, the ROUTINE.md content as the message, this repo's GitHub URL as the source, the needed connections attached — otherwise give them the sheet in a copy-paste block plus click-by-click steps for [claude.ai/code/routines](https://claude.ai/code/routines).
+1. Convert the agreed schedule to UTC (confirm the local→UTC conversion in words), then schedule it: the **schedule skill** when available — routine name, the ROUTINE.md content as the message, this repo's GitHub URL as the source, the needed connections attached — otherwise give them the sheet in a copy-paste block plus click-by-click steps for [claude.ai/code/routines](https://claude.ai/code/routines). (Non-Claude runtime? The scheduling step is the per-runtime part — `docs/runtimes.md` maps the equivalents.)
 2. Record it in `my/routines.md` (same entry format as the others), commit everything (`build-routine YYYY-MM-DD: built <name>`), push.
 3. Close the loop: when the first real run happens, where its report appears, and the two phrases that manage it from now on — "change my <name> routine" and "check my routines".
 4. If the routine came out well — especially if it answers one of the community's open wishes — mention once, without pushing: "proud of it? saying **'share this routine'** offers it to the kit's community — scrubbed of everything personal first, and credited to you." (The **share-routine** skill takes it from there.)
