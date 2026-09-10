@@ -44,6 +44,10 @@ Two channels, both boring on purpose:
 
 And one rule above all: **a routine reports even when there is nothing to say.** Silence is never "all quiet" — silence means "check on me", and the checkup skill exists for exactly that.
 
+## How the kit finds what you can't see
+
+The hardest question in this whole kit is the first one: *what would you even automate?* Nobody can answer it by introspection — repeated work turns invisible to the person doing it. So the kit can **look before you leap**: on request (and only on request), Claude reads the *shape* of your recent weeks — who writes you, what repeats, what waits, how your days are arranged — and mirrors it back with numbers, so you recognize your time-eaters instead of having to remember them. It's read-only, everything it notices is shown to you, and nothing is kept without your OK. The same idea exists as routines: **mirror week** watches quietly for seven days then reports, and **opportunity radar** keeps watching, once a month, for the *next* helper worth having — proposing at most one idea, always with evidence.
+
 ## Why a repository, of all things?
 
 Because it gives your helpers three things nothing else gives them at once: a **memory** that survives between runs, a **rulebook** you can read and change, and a **paper trail** of every single thing they've done. It's also why you can trust the setup: everything a routine will ever do is written, in advance, in a file you can open.

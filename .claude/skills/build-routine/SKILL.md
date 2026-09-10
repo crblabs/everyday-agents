@@ -11,6 +11,8 @@ The owner has an idea in their head, not a spec. Your job is to be the whole eng
 
 ## Step 1 — Shape the wish
 
+(If the wish is still fog — "I want… something? I just know I'm drowning" — the **discover** skill is the upstream: it mirrors their actual weeks back to them until a concrete wish appears. Come back here once there's a sting to shape.)
+
 Get the idea into the **routine shape** — five questions, asked conversationally, not as a form:
 
 1. **What should it do?** The job in one sentence, concrete enough to picture one run.

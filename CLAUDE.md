@@ -13,6 +13,8 @@ There are two very different situations in which you are reading this file:
 |---|---|
 | Fresh copy, owner says "set me up" (or anything like it) | Run the **setup** skill |
 | Owner wants a catalog routine, or to change/pause one | Run the **add-routine** skill |
+| Owner doesn't know what they need ("what should I automate?", "give me ideas") | Run the **discover** skill (consent-gated, read-only mirror) |
+| A session that deserves the full discovery hour ("run the opportunity workshop") | Run the **workshop** skill |
 | Owner describes a wish the catalog doesn't cover ("I want something that…") | Run the **build-routine** skill |
 | Anything about connecting/disconnecting accounts | `docs/connections.md` |
 | Owner asks "are my routines OK?", "what ran?", anything health-shaped | Run the **checkup** skill |
@@ -50,6 +52,8 @@ When the owner's request matches a skill, invoke it via the Skill tool — when 
 
 - "set me up", "get started", "install", first conversation in a fresh copy → **setup**
 - "add the morning brief", "change my triage labels", "run it at 8 instead", "pause the watchlist" → **add-routine**
+- "what should I automate?", "I don't know what I need", "show me my week", "give me ideas" → **discover**
+- "run the opportunity workshop", "help me find what to automate, properly" → **workshop**
 - "build me a routine that…", "I want something that…", "could a helper do X?" — any wish beyond the catalog → **build-routine**
 - "is everything working?", "what did my agents do?", "I didn't get my brief" → **checkup**
 - "share my … routine", "give this to the community" → **share-routine**

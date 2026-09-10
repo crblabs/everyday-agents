@@ -10,7 +10,9 @@
     { "name": "Watchlist", "dir": "routines/watchlist", "tier": "core", "one_line": "Watches your topics; pings only on genuine news", "connectors": ["Google Calendar (optional)"], "author": "the kit", "added": "2026-09-10" },
     { "name": "Life admin", "dir": "routines/life-admin", "tier": "core", "one_line": "Warns in time about birthdays, renewals, deadlines", "connectors": ["Google Calendar (optional)"], "author": "the kit", "added": "2026-09-10" },
     { "name": "Weekly review", "dir": "routines/weekly-review", "tier": "core", "one_line": "What your helpers did this week, and what needs you", "connectors": ["Google Calendar (optional)"], "author": "the kit", "added": "2026-09-10" },
-    { "name": "Kit news", "dir": "routines/kit-news", "tier": "core", "one_line": "Tells you when the community adds new helpers to the kit", "connectors": ["Google Calendar (optional)"], "author": "the kit", "added": "2026-09-10" }
+    { "name": "Kit news", "dir": "routines/kit-news", "tier": "core", "one_line": "Tells you when the community adds new helpers to the kit", "connectors": ["Google Calendar (optional)"], "author": "the kit", "added": "2026-09-10" },
+    { "name": "Mirror week", "dir": "routines/mirror-week", "tier": "core", "one_line": "Watches one week of your life, then shows you what's eating it", "connectors": ["Gmail and/or Google Calendar"], "author": "the kit", "added": "2026-09-10" },
+    { "name": "Opportunity radar", "dir": "routines/opportunity-radar", "tier": "core", "one_line": "Once a month, one evidenced idea for your next helper — or silence", "connectors": ["Google Calendar (optional)", "Gmail (optional)"], "author": "the kit", "added": "2026-09-10" }
   ],
   "packs": [
     { "name": "New-parent pack", "file": "packs/new-parent.md", "one_line": "For the season when nothing fits in your head anymore", "routines": ["life-admin", "email-cleanup", "morning-brief", "weekly-review"] },

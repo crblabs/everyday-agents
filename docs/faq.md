@@ -17,7 +17,13 @@ Maybe. On Team/Enterprise plans, your company's administrator decides whether ac
 **Do I need Google Workspace? A paid Google account?**
 No. A **free personal @gmail.com account** is exactly enough for every email and calendar helper. Google Workspace (work/school Google) also works *if* its administrator allows connecting apps. Nothing on the Google side ever costs anything here.
 
+**I honestly have no idea what I'd use this for.**
+Then you're the ideal user, not a lost cause — nobody can list their own repetitive work; it becomes invisible precisely because you do it all the time. Say **"I don't know what I need"**: with your permission, Claude looks at the *shape* of your last few weeks (who writes you, what repeats, what waits — read-only, everything shown to you, nothing kept without your OK) and shows you your own patterns. People recognize their time-eaters instantly when shown; they just can't recall them when asked. Prefer not to have your mail looked at? A few well-aimed questions work too, and [the moments page](../routines/MOMENTS.md) usually finds the sting.
+
 ## Privacy
+
+**Wait — it reads my email to make suggestions?!**
+Only if you say yes, only when you ask for discovery, and only like this: read-only (it acts on nothing), looking at *shape* rather than content (senders, counts, rhythms — it doesn't quote your messages back), everything it noticed shown to you in the same conversation, and nothing stored unless you approve the conclusions. It's the same access your email helpers already use to sort your inbox — pointed, once, at the question "what's eating your time?". Decline it and discovery happens by conversation instead; that path is built in, not a workaround.
 
 **Who can see my stuff?**
 Your copy of the kit is a *private* repository: only you (and GitHub, as your storage provider) can see it. Your connected accounts (Gmail, Calendar…) are visible only to your own Claude account. Nothing flows back to the public kit or its author — copying a template is a one-way street.

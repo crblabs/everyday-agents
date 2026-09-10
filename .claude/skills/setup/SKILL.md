@@ -26,7 +26,8 @@ Learn, conversationally (not as a form):
 
 1. **First name** and **timezone** (or city — derive the timezone; confirm it, since every schedule depends on it).
 2. **Life shape**: work situation, roughly what their inbox and calendar look like, what regularly eats their time or gets forgotten.
-3. **Pain picker** — offer the catalog's jobs as outcomes, not names: "Would it help if something sorted your inbox every day? Gave you your day on one screen each morning? Watched a topic for you? Remembered birthdays and renewals?" Let them react.
+3. **Moment picker** — offer recognizable moments, not task names (draw on `routines/MOMENTS.md`): "Do you know the Sunday-evening dread? The email you've owed someone for days? The 'wait, their birthday is TOMORROW'? The tab you keep reopening?" Let them react — one genuine sting beats five polite answers.
+4. **If they can't answer** ("I don't know what eats my time") — don't push, and don't treat it as a failed interview; it's the normal starting state. Offer the **discover** skill ("want me to look at the shape of your last few weeks — read-only, everything shown to you — and tell you what I see?") or the **mirror week** routine as their zeroth helper.
 
 ## Step 2 — Recommend 2–3 routines (not more)
 
