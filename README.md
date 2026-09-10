@@ -27,9 +27,21 @@ Every routine is **read-mostly and cautious by design**: none of them ever sends
 
 The catalog is where most people start — not where they end up. Say **"build me a routine that…"** and Claude walks you through the whole thing, no technical knowledge needed: shaping the idea, connecting any account it requires (guided, click by click), **rehearsing the routine live once so you see exactly what it will do**, then scheduling it. School-mail digests, travel prep, price watches, subscription audits — see [ideas people actually build](routines/BUILD-YOUR-OWN.md).
 
+## What you need — check before you start
+
+Twenty seconds here saves you a frustrating half hour later:
+
+- ✅ **A paid Claude plan** — Pro or Max ([pricing](https://claude.ai/pricing)). This is the kit's only cost. **The Free plan can't run scheduled helpers.** *(Claude through your employer? It may work, but your company's admin controls what's allowed — check the [FAQ](docs/faq.md#is-this-for-me) first.)*
+- ✅ **A Google account for the email & calendar helpers** — a free personal **@gmail.com is enough; you do NOT need Google Workspace.** *(A work Google account works only if your admin allows connecting apps.)*
+- ✅ **An email address** — that's all it takes to create the free GitHub account during setup.
+- ✅ **A web browser** — any modern one, on any computer. Nothing gets installed.
+- ⚠️ **Your mail lives in Outlook, iCloud, or Yahoo?** Honest answer: the email and calendar helpers won't work for you *today* — most of the catalog is built on Gmail and Google Calendar. The watchlist, life-admin, and kit-news helpers still work (they need no accounts at all), but if email help is why you came, better to know now. More providers can arrive as connections do.
+
+All green? Carry on.
+
 ## Setup
 
-**New to all of this?** Follow **[Getting started](GETTING-STARTED.md)** — the same path as below, but assuming nothing: it explains what Claude Code and GitHub are and walks you through creating the two accounts first (a paid Claude plan is the kit's only cost; GitHub is free). Budget 20–30 relaxed minutes.
+**New to all of this?** Follow **[Getting started](GETTING-STARTED.md)** — the same path as below, but assuming nothing: it explains what Claude Code and GitHub are and walks you through creating the two accounts first. Budget 20–30 relaxed minutes.
 
 **Already have a Claude plan and a GitHub account?** The short version, about 15 minutes:
 

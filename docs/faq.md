@@ -8,6 +8,15 @@ Yes, really. The kit is designed for exactly you: everything happens by chatting
 **Do I need to learn GitHub?**
 No. You'll create a free account once (like signing up for any website) and click one green button. From then on, Claude does all the filing; you never work in GitHub yourself.
 
+**Which Claude plan do I need, exactly?**
+A paid personal plan — **Pro or Max** ([current pricing](https://claude.ai/pricing)). That's the kit's only cost; everything else (GitHub, a Google account) is free. **The Free plan cannot run scheduled helpers** — it can chat, but nothing would run on its own.
+
+**My Claude comes from my employer — will it work?**
+Maybe. On Team/Enterprise plans, your company's administrator decides whether accounts can be connected and helpers scheduled — some allow it, some don't. Ask Claude to check with you before investing setup time. Honestly though, for *personal* helpers (your inbox, your birthdays), a personal plan is the cleaner answer — it also keeps your life's data off your employer's account.
+
+**Do I need Google Workspace? A paid Google account?**
+No. A **free personal @gmail.com account** is exactly enough for every email and calendar helper. Google Workspace (work/school Google) also works *if* its administrator allows connecting apps. Nothing on the Google side ever costs anything here.
+
 ## Privacy
 
 **Who can see my stuff?**
@@ -74,8 +83,8 @@ Yes — that's the point. Say **"build me a routine that…"** and describe what
 **Do I need to keep my computer on?**
 No. Routines run in Anthropic's cloud. Everything works with your machine off.
 
-**Does this work with Outlook / iCloud / other calendars?**
-The v1 catalog is built around Gmail and Google Calendar, because those connections are solid today. Other providers can work if a connection exists for them — ask Claude what's available, and see [Connections, in plain English](connections.md).
+**Does this work with Outlook / iCloud / Yahoo mail?**
+Honest answer: **not today** for the email and calendar helpers — the catalog is built on Gmail and Google Calendar, because those connections are solid. The helpers that need no accounts (watchlist, life-admin, kit-news) work for everyone. Other providers can work as soon as a connection exists for them — ask Claude what's available, and see [Connections, in plain English](connections.md). If this is you and you'd use the kit the day Outlook works: say "I wish it worked with Outlook" — wishes are how the kit learns where to grow.
 
 **I use Claude in a language other than English — problem?**
 None. The kit's files are in English, but Claude talks with you, and writes your reports, in your language. Just ask.

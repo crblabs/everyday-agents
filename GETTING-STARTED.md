@@ -4,6 +4,26 @@ This page assumes you've never heard of Claude Code, GitHub, or "routines" — a
 
 Budget 20–30 minutes, all of it clicking and chatting. Nothing gets installed on your computer, and there is nothing here you can break: every single step can be undone.
 
+## The honest checklist — 20 seconds, before the 30 minutes
+
+Four questions. If any answer is "no", the fix (or the honest bad news) is right there — far better now than halfway through.
+
+**1. Do you have — or will you get — a paid Claude plan?**
+The helpers run on Claude's **Pro or Max** plans ([current pricing](https://claude.ai/pricing)); this is the kit's only cost, and Part 1 below walks you through signing up. **The Free plan cannot run scheduled helpers** — you could still chat with Claude about the kit, but nothing would run on its own.
+*Claude provided by your employer (Team/Enterprise)?* It may work, but your company's administrator decides whether accounts can be connected and helpers scheduled. Ask Claude to check with you before investing the 30 minutes — or use a personal plan for your personal helpers, which also keeps work and life data apart.
+
+**2. Is your email on Gmail (or your calendar on Google Calendar)?**
+A free personal **@gmail.com account is all you need — no Google Workspace, nothing paid on the Google side.** A work/school Google account also works *if* its administrator allows connecting apps (many do, some don't — you'll find out in two clicks at the connection step).
+*Your mail lives in Outlook, iCloud, or Yahoo?* Honest answer: the email and calendar helpers — most of the catalog — **won't work for you today**. The watchlist, life-admin, and kit-news helpers still will (they need no connected accounts), and more providers can arrive as connections do. If email help is what brought you here, better to know at this line than at minute twenty.
+
+**3. Do you have an email address?**
+Then you can create the free GitHub account — that's genuinely all it takes, and Part 1 covers it.
+
+**4. Do you have a web browser on a computer?**
+Any modern browser is fine, and nothing gets installed. (Reading your helpers' reports works great on a phone; the one-time setup is just comfier with a keyboard.)
+
+All four yes? You'll be done in half an hour. Carry on.
+
 ## First, the cast of characters
 
 Four names you'll meet. In plain words:
@@ -20,7 +40,7 @@ That's the whole vocabulary. Everything else is ordinary clicking.
 ### A Claude account
 
 1. Go to [claude.ai](https://claude.ai) and sign up — an email address or a Google login is all it takes.
-2. Routines need a **paid Claude plan** (called Pro; the price is on the page). This is the only cost in the entire kit — everything else here is free.
+2. Routines need a **paid Claude plan — Pro or Max** ([pricing](https://claude.ai/pricing)). This is the only cost in the entire kit — everything else here is free.
 3. You're done when you can type "hello" to Claude and get an answer.
 
 Already chat with Claude? You're done with this half already.
