@@ -80,11 +80,30 @@ You're granting access to *your* Claude — the same one you chat with — not t
 2. If it asks to connect to your GitHub account, approve it — that's Claude asking for the key to your filing cabinet. (One-time.)
 3. Open the repository you created in Step 1 (it'll be in the list).
 
-You're now chatting with Claude *inside* your copy of the kit. It can see the instruction sheets; you just talk.
+**The checkpoint** — this is the step that most often goes quietly wrong, so verify it in one line. Ask Claude:
 
-### Step 4 — Say: "set me up"
+```
+Can you see a file called CLAUDE.md in this project?
+```
 
-Type exactly that, or anything like it, in your own language. Claude will:
+If yes: you're in the right place, go to Step 4. If no: don't push on — the setup can't work from outside your copy. The message in Step 4 is built to fix exactly this; paste it and let Claude sort it out with you.
+
+### Step 4 — Paste the first message
+
+Copy this, fill in the one blank (the name you gave your copy in Step 1), and send it — in English or your own language, it doesn't matter:
+
+```
+Set up my Everyday Agents helpers.
+
+My kit is my own private copy of github.com/crblabs/everyday-agents
+(made with "Use this template" — mine is called ______ on my GitHub).
+
+First make sure you can actually see my copy's files. If you can't,
+help me open or download it, step by step, assuming I know nothing.
+Then read its CLAUDE.md and start the setup it describes.
+```
+
+Why this message and not just "set me up"? Because it works **even when something's off**: if Claude isn't actually inside your copy (the most common first-time hiccup — for example in the desktop app, where your copy first needs to be downloaded, or on the web with no repository opened), the message tells it what your kit is and where, so it can get you there instead of shrugging. Once inside, Claude will:
 
 1. **Interview you** for a few minutes — your first name, your timezone, what eats your time, what you'd like off your plate.
 2. **Recommend 2–3 starter helpers** and explain each in plain terms. (Starting small is deliberate; you can add more any day.)

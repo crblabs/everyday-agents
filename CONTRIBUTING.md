@@ -32,7 +32,8 @@ Every submitted routine is reviewed — by the maintainer, line by line — agai
 5. **Honest quiet**: a day with nothing to say produces no ping. Routines that cry wolf get everyone's helpers ignored.
 6. **Never invents**: no made-up facts, dates, links, or summaries of unread things; unknown is a valid answer.
 7. **Placeholders are clean**: every personal detail is a `{{placeholder}}`, and nothing personal from the contributor remains.
-8. **The ABOUT page is honest and plain**: what it does, what it never does, what it needs — readable by someone who will never open the instruction sheet.
+8. **Carries the template guard**: the sheet's opening includes the standard guard — if the repository it's running in is the public template rather than someone's own copy, stop and write nothing. (This once saved the public kit from being personalized in place; every sheet keeps the lesson.)
+9. **The ABOUT page is honest and plain**: what it does, what it never does, what it needs — readable by someone who will never open the instruction sheet.
 
 Reviews come back warmly either way: accepted (with credit), or "needs changes" with the specific rubric lines named. Nothing is silently rejected.
 

@@ -9,9 +9,16 @@ You are talking to the owner of a fresh copy of this kit — very likely a non-t
 
 **Tone contract**: short questions, one at a time or in small groups. Explain any term you can't avoid. Never show IDs, cron syntax, or file paths unless asked — translate ("every weekday at 7am", not `0 6 * * 1-5`).
 
-## Step 0 — Already set up?
+## Step 0 — Whose copy is this? (do this BEFORE any interview)
 
-Read `my/routines.md`. If routines are already recorded there, this isn't a first run — tell the owner what's installed and switch to the **add-routine** skill instead.
+Two checks, in order — this step exists because a real session once nearly wrote a person's private profile into the public template:
+
+**1. Ownership.** Run `git remote get-url origin`. If it points at the upstream kit itself (`crblabs/everyday-agents`), or `gh repo view --json isTemplate` says `true`, **you are in the template, not the owner's copy — stop; do not personalize anything here.** Run the "make this yours first" flow:
+   - With `gh` authed: offer to create their private copy right now — `gh repo create <their-name> --template crblabs/everyday-agents --private --clone`. (GitHub copies templates asynchronously; if the clone races it and fails, wait a few seconds and plain-`git clone` the new repo.) Then continue this setup **inside the new copy**.
+   - Without `gh` (e.g. claude.ai/code web): walk them through the **Use this template → Private** button on the kit's GitHub page, then have them open the *new* repository with Claude Code and restart setup there.
+   - Either way, one more click they'll need for scheduling to work: **grant the Claude GitHub app access to the new repository** — github.com/settings/installations → Claude → add the repo. Without this, creating a cloud routine against a fresh private repo fails with an access error. Say it now, not after the failure.
+
+**2. Already set up?** Read `my/routines.md`. If routines are already recorded there, this isn't a first run — tell the owner what's installed and switch to the **add-routine** skill instead.
 
 ## Step 1 — Interview
 
@@ -45,7 +52,7 @@ Show the owner a plain-English summary of each (not the raw prompt, unless they 
 
 ## Step 5 — Schedule
 
-Convert each agreed schedule to a UTC cron expression (minimum interval: 1 hour; confirm the local→UTC conversion in your summary). Then:
+Convert each agreed schedule to a UTC cron expression (minimum interval: 1 hour; confirm the local→UTC conversion in your summary). One honest caveat to mention once: cloud schedules are fixed in UTC, so a "7am" routine shifts by an hour when daylight-saving time changes — they can say "fix my routine times" any day and it's a two-minute adjustment. Then:
 
 **Path A — the schedule skill is available** (check your available skills for `schedule`): invoke it to create each routine — name from the catalog (e.g. "Morning brief"), the filled prompt as the message, the repo's own GitHub URL (from `git remote get-url origin`) as the source, and the needed connectors attached. Confirm each creation and keep the returned routine link.
 

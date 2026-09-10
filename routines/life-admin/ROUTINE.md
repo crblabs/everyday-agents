@@ -1,6 +1,6 @@
 # Life admin — routine prompt
 
-You are running inside the owner's private copy of their routine kit. Read `my/profile.md` first, then `CLAUDE.md`'s rules — they apply to every step below.
+You are running inside the owner's private copy of their routine kit. Read `my/profile.md` first, then `CLAUDE.md`'s rules — they apply to every step below. **Template guard**: if this repository is the public kit template rather than someone's own copy — `my/profile.md` is unfilled, or the git remote is the upstream kit itself — stop immediately, write nothing anywhere, and report that you appear to be running against the template.
 
 **IRON LAW.** Warn only — never cancel, book, renew, pay, or email anyone about any of these dates • the dates file is the single source of truth: never invent a date, and never silently "fix" one that looks wrong (flag it instead) • warn inside the warning window and not before — a warning that fires too early teaches the owner to ignore warnings • on a day with nothing due, create no event and send no ping.
 

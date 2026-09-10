@@ -16,7 +16,8 @@ The owner wants to know things are working, or why one didn't. Answer both the w
    - **Account disconnected** → fix at [claude.ai/customize/connectors](https://claude.ai/customize/connectors)
    - **Routine paused/disabled** → fix at [claude.ai/code/routines](https://claude.ai/code/routines)
    - **Usage limit reached** → it'll resume by itself; say when roughly
-   - **Repository not reachable / push failing** → GitHub authorization needs a re-click; guide them
+   - **Repository not reachable / push failing / "no access to a repository this routine uses"** → the Claude GitHub app usually lacks a grant on the repo (common right after creating a private copy): github.com/settings/installations → Claude → add the repository; guide them click by click
+   - **Reports arriving an hour off** → daylight-saving shift (schedules are fixed UTC); offer to recompute the crons
    - **Something else** → describe what you actually see, in words; don't guess
 
 ## Report

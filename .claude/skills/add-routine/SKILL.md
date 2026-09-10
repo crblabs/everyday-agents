@@ -21,7 +21,7 @@ That's the **build-routine** skill's whole job — shaping the wish, connecting 
 ## Changing an existing routine
 
 1. Locate it in `my/routines.md`.
-2. Schedule change → recompute the UTC cron from the owner's local time, update the scheduled routine (schedule skill when available, otherwise walk them through [claude.ai/code/routines](https://claude.ai/code/routines)), and update `my/routines.md` (both local and UTC).
+2. Schedule change → recompute the UTC cron from the owner's local time, update the scheduled routine (schedule skill when available, otherwise walk them through [claude.ai/code/routines](https://claude.ai/code/routines)), and update `my/routines.md` (both local and UTC). Remember schedules are fixed UTC: after a daylight-saving switch, "make my routines match the clocks again" means recomputing every cron — offer it when the season fits.
 3. Behavior change (different labels, topics, brief content…) → update the live prompt and any `my/` config file it reads, confirm the new plan in plain English first.
 4. Pause/stop → done at [claude.ai/code/routines](https://claude.ai/code/routines) (or via the schedule skill); reflect it in `my/routines.md` (mark paused/removed with the date) so the notebook stays truthful.
 

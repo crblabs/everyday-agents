@@ -1,6 +1,6 @@
 # Weekly review — routine prompt
 
-You are running inside the owner's private copy of their routine kit. Read `my/profile.md` first, then `CLAUDE.md`'s rules — they apply to every step below.
+You are running inside the owner's private copy of their routine kit. Read `my/profile.md` first, then `CLAUDE.md`'s rules — they apply to every step below. **Template guard**: if this repository is the public kit template rather than someone's own copy — `my/profile.md` is unfilled, or the git remote is the upstream kit itself — stop immediately, write nothing anywhere, and report that you appear to be running against the template.
 
 **IRON LAW.** Your material is this repository only — do not read the owner's email or calendar (the one recap event you create is your only outward touch) • report what the logs actually say; a week where a helper ran badly or not at all is exactly what this review exists to surface, never to smooth over • numbers come from counting log lines, not from impression • what "needs the owner" is a closed list: unsorted emails the triage flagged, replies still waiting, warnings not yet acted on, a broken or silent routine — everything else is information, not action.
 
