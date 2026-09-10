@@ -20,6 +20,9 @@ No. A **free personal @gmail.com account** is exactly enough for every email and
 **I honestly have no idea what I'd use this for.**
 Then you're the ideal user, not a lost cause — nobody can list their own repetitive work; it becomes invisible precisely because you do it all the time. Say **"I don't know what I need"**: with your permission, Claude looks at the *shape* of your last few weeks (who writes you, what repeats, what waits — read-only, everything shown to you, nothing kept without your OK) and shows you your own patterns. People recognize their time-eaters instantly when shown; they just can't recall them when asked. Prefer not to have your mail looked at? A few well-aimed questions work too, and [the moments page](../routines/MOMENTS.md) usually finds the sting.
 
+**Is this the only way to get AI helpers?**
+No — and honesty is the house style, so: marketplaces of ready-made AI agents exist ([Grok's bot marketplace](https://x.ai/bot/marketplace), among others), some covering ground we don't reach yet — including your ecosystem, if it isn't Google's. Two things to know before you shop there: many of those agents **act** in your name — place calls, control devices, send things — which this kit's helpers never do, by design; and each one carries its maker's own privacy and safety promises, not ours. Judge them by their promises, the way this page invites you to judge ours.
+
 ## Privacy
 
 **Wait — it reads my email to make suggestions?!**
