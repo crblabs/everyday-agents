@@ -39,6 +39,8 @@ Before anything is scheduled, **do one run of the routine right now, together, i
 
 This is the step that makes the difference. It proves the connections work, surfaces the judgment calls that need their taste ("does this count as important?"), and lets them react to something real instead of imagining. Tune the shape from their reactions and re-rehearse the changed part if the change was substantial.
 
+**Standing on shoulders**: when the wish matches ground someone has already covered well — PM work (PRDs, discovery, pricing → Pawel's PM Skills), engineering method (TDD, debugging → Superpowers), the founder factory (gstack) — mention the shelf (`docs/power-ups.md`) once instead of rebuilding worse: a vendored skill (via **power-up**) can become this routine's method. Their call; the routine works without it.
+
 ## Step 4 — Write it down
 
 Create `routines/<kebab-name>/` in their copy, following the catalog's contract — read one neighboring routine (e.g. `routines/watchlist/ROUTINE.md`) as the model:

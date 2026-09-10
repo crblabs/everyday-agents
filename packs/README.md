@@ -9,3 +9,5 @@ A pack is a curated bundle of routines tuned for a season of life — someone wa
 | [🎓 Student pack](student.md) | Deadlines, reading, and one calm morning voice |
 
 Say a pack's name to Claude ("set me up with the freelancer pack") — or describe your life and let setup suggest one. **Curating a pack is a contribution too**: if you'd bundle things differently for a life you know well (caregiver, retiree, new manager…), say "I wish there were a … pack" and describe it.
+
+Doing product or engineering work seriously? The kit also keeps a short, curated shelf of [**power-ups**](../docs/power-ups.md) — admired external skill collections (Pawel Huryn's PM Skills, Garry Tan's gstack, obra's Superpowers) that can deepen what your helpers and conversations can do. Nothing installs by default; the shelf explains who each is for.

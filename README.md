@@ -108,6 +108,7 @@ The promises: sharing is always opt-in and previewed, every gift is credited you
 - [Build your own](routines/BUILD-YOUR-OWN.md) — how the builder works, and ideas to steal
 - [The community](docs/community.md) — sharing, wishing, and what's new, all by conversation
 - [Connections, in plain English](docs/connections.md) — what connecting an account means, and how to undo it
+- [Power-ups](docs/power-ups.md) — a short curated shelf of admired external skill collections (nothing installed by default)
 - [FAQ](docs/faq.md) — privacy, cost, safety, and how to stop
 - [What's new](CHANGELOG.md) — the kit's news, in plain words
 

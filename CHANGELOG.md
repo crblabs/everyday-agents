@@ -2,6 +2,10 @@
 
 Newest first. Your **kit-news** helper reads this page — and "what's new?" said to Claude walks you through anything here.
 
+## 2026-09-10 — The power-ups shelf opens
+
+- A short, curated shelf of external skill collections we admire — [Pawel Huryn's PM Skills](https://github.com/phuryn/pm-skills), [Garry Tan's gstack](https://github.com/garrytan/gstack), [obra's Superpowers](https://github.com/obra/superpowers) — with honest trust lines and an opinionated who-should-pick-what. Nothing installs by default; "add the PM skills" or "power up my routines with…" does it on your explicit ask, vendored with provenance, updated only with your consent. [The shelf.](docs/power-ups.md)
+
 ## 2026-09-10 — The kit learns to find your opportunities
 
 - "What would I even automate?" is now the kit's favorite question instead of its wall. Say **"I don't know what I need"** and Claude mirrors the shape of your own weeks back to you — consent-gated, read-only, everything shown — until you recognize your time-eaters. Prefer questions to mirrors? [The moments page](routines/MOMENTS.md) finds the sting.
