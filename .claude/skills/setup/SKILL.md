@@ -23,7 +23,7 @@ Learn, conversationally (not as a form):
 
 ## Step 2 — Recommend 2–3 routines (not more)
 
-From their answers, pick the two or three best-fit routines from `routines/` and read each one's `ABOUT.md` and `ROUTINE.md`. Present each recommendation as: what it does for them, when it would run, where its report lands. Starting small is deliberate — say so, and mention they can add more any day with "add a routine".
+From their answers, pick the two or three best-fit routines from `routines/` and read each one's `ABOUT.md` and `ROUTINE.md`. When their life shape matches a pack in `packs/`, lead with the pack ("this sounds like the freelancer pack") — its page explains the why of each pick. Present each recommendation as: what it does for them, when it would run, where its report lands. Starting small is deliberate — say so, and mention they can add more any day with "add a routine". Offer **kit news** as an optional extra — the helper that tells them when the community adds new ones.
 
 If the interview surfaced a need the catalog doesn't cover, don't force a poor fit and don't lose it either: name it back to them ("a helper for X doesn't exist yet — we can build it together after your starters are running, just say 'build me a routine'"), and note it in `my/profile.md`. The **build-routine** skill handles that path.
 
@@ -63,4 +63,4 @@ Push if you can; a push failure is reported in plain words, never silently swall
 
 ## Step 7 — Close the loop
 
-Tell the owner: which helpers now exist, when the first one runs, **where its report will appear**, and the three magic phrases — "check my routines", "add a routine", and "build me a routine" for anything the catalog doesn't cover. Offer a test-fire of one routine now if they'd like to see a report immediately.
+Tell the owner: which helpers now exist, when the first one runs, **where its report will appear**, and the magic phrases — "check my routines", "add a routine", "build me a routine" for anything the catalog doesn't cover, and "what's new?" to see what the community has added. Offer a test-fire of one routine now if they'd like to see a report immediately.

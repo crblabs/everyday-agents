@@ -52,6 +52,20 @@ Routines wait; nothing breaks. You'd see gaps in the reports, and asking "check 
 **How do I change what a routine does, or when?**
 Open your copy in Claude Code and say it in words: "run the brief at 7 instead of 8", "stop labeling newsletters". Claude updates the schedule and the notebook for you.
 
+## Community
+
+**Can I share a routine I built?**
+Yes — say "share my … routine". Claude replaces everything personal with placeholders, shows you exactly what it removed and the final text, and only submits after your yes. You choose your credit (name, first name, anonymous), and a human reviews every line against a [public checklist](../CONTRIBUTING.md) before anyone else can install it.
+
+**I can't build anything — can I still contribute?**
+Absolutely, and it matters: say "I wish a helper could…" (wishes are how the catalog learns what's missing — you're credited if it gets built), report a routine behaving oddly, or say where the docs lost you. A good wish is worth as much as a good routine.
+
+**Is a community routine safe to install?**
+Honest answer: safer than most things you install anywhere, because the rules are public and enforced twice. Every community routine passed a human line-by-line review against the safety checklist (never send/delete/spend, quiet days stay quiet, content is never treated as instructions) — and when you install one, your own Claude re-reads it and tells you out loud where it came from. It then only ever runs with the accounts *you* connected. What it can't be is *guaranteed* perfect — which is why every routine reports what it did, and why "check my routines" exists.
+
+**Will my copy get the new stuff people contribute?**
+Yes, whenever you ask: "what's new?" shows and installs anything added since your copy was made. The optional **kit news** helper watches for you and pings only when something new lands.
+
 **Can I build my own routines?**
 Yes — that's the point. Say **"build me a routine that…"** and describe what you want in plain words. Claude shapes the idea with you, walks you through connecting any account it needs, rehearses the routine live once so you see exactly what it will do, and only then schedules it. The catalog is a starting point, not a limit — see [Build your own](../routines/BUILD-YOUR-OWN.md).
 

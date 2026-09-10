@@ -1,0 +1,23 @@
+name: 🧭 I got lost
+description: "Somewhere in the docs or the setup, the kit lost you. Every one of these is a documentation fix waiting to happen — confusion is a contribution here."
+title: "Lost at: "
+labels: ["confusion"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Truly — no report here is too basic. If a page confused you, the page is wrong, not you.
+  - type: input
+    id: where
+    attributes:
+      label: Where were you?
+      placeholder: "Step 3 of Getting Started / the connections page / talking to Claude during setup"
+    validations:
+      required: true
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened?
+      description: What you were trying to do, what you expected, and where it stopped making sense.
+    validations:
+      required: true

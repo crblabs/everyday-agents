@@ -1,0 +1,24 @@
+name: 🔬 A field report
+description: "A routine did something odd, annoying, or wrong in real life — that's precious tuning data for everyone's copies."
+title: "Field report: "
+labels: ["field-report"]
+body:
+  - type: input
+    id: routine
+    attributes:
+      label: Which routine?
+      placeholder: "Reply radar"
+    validations:
+      required: true
+  - type: textarea
+    id: report
+    attributes:
+      label: What happened?
+      description: What it did versus what you expected — in your words, with no personal details (no real names, email addresses, or contents).
+      placeholder: "It keeps flagging newsletters as 'needs a reply' when the sender writes in a chatty personal tone."
+    validations:
+      required: true
+  - type: textarea
+    id: wished
+    attributes:
+      label: What should it have done? (optional)

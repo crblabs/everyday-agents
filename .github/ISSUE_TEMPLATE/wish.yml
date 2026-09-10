@@ -1,0 +1,27 @@
+name: 🌠 A wish
+description: "I wish a helper could… — you don't need to know how to build it. Wishes are how the kit learns what's missing."
+title: "Wish: "
+labels: ["wish"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        A wish is a real contribution — someone else may build it, and you'll be credited for the idea. Plain words are perfect here.
+  - type: textarea
+    id: wish
+    attributes:
+      label: I wish a helper could…
+      description: Describe it the way you'd tell a friend. What should it watch, do, or remind you of?
+      placeholder: "…notice when my favorite musicians announce concerts near me, and tell me before tickets sell out."
+    validations:
+      required: true
+  - type: textarea
+    id: why
+    attributes:
+      label: What would it save you? (optional)
+      description: The chore or worry it would take off your plate — helps builders feel the need.
+  - type: input
+    id: credit
+    attributes:
+      label: How should we credit you if this gets built? (optional)
+      placeholder: "First name, full name, or leave empty for anonymous"

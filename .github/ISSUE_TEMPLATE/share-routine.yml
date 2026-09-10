@@ -1,0 +1,36 @@
+name: 🎁 Share a routine
+description: "Offer a routine you built to the community. Claude in your copy can fill this whole form for you — say 'share my … routine'."
+title: "Routine: "
+labels: ["routine-submission"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you! Before it can appear in the installable catalog, a human reads every line against the [public checklist](../blob/main/CONTRIBUTING.md) — you'll hear back either way, warmly. Make sure everything personal (your names, labels, times, topics) is replaced with `{{placeholders}}`; if you shared via Claude, that's already done.
+  - type: textarea
+    id: about
+    attributes:
+      label: What it does, in plain words
+      description: The ABOUT page — what it does for its owner, what it never does, what accounts it needs, where its reports appear.
+    validations:
+      required: true
+  - type: textarea
+    id: sheet
+    attributes:
+      label: The instruction sheet (ROUTINE.md)
+      description: The full sheet, with personal details as {{placeholders}}. Keep the IRON LAW line and the always-report ending intact — the review checks for them.
+      render: markdown
+    validations:
+      required: true
+  - type: input
+    id: credit
+    attributes:
+      label: How should you be credited?
+      placeholder: "First name, full name, or 'anonymous'"
+    validations:
+      required: true
+  - type: textarea
+    id: story
+    attributes:
+      label: The story (optional)
+      description: What made you build it? A sentence of this often becomes the best part of the ABOUT page.

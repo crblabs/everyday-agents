@@ -47,6 +47,17 @@ The catalog is where most people start — not where they end up. Say **"build m
 
 From then on, your routines run on their schedule. You can see, pause, or delete any of them at any time at [claude.ai/code/routines](https://claude.ai/code/routines).
 
+## The community
+
+Your copy is private, but the kit is shared — and it grows by gifts. All of it by talking to Claude in your copy, never by learning GitHub:
+
+- **"What's new in the kit?"** — see and install what others contributed since your copy was made. Your copy never goes stale.
+- **"Share my … routine"** — give a routine you built. It's scrubbed of everything personal (you see exactly what's removed), credited to you, and **a human reads every line** before anyone else can install it.
+- **"I wish a helper could…"** — can't build it? Wishing for it is a real contribution; someone else may build it, and you're credited for the idea.
+- **"This routine keeps doing X wrong"** / **"I got lost"** — field reports and confusion reports make the kit better for the next person. Confusion is a contribution here, not a failure.
+
+The promises: sharing is always opt-in and previewed, every gift is credited your way, and everything installable was human-reviewed against a [public checklist](CONTRIBUTING.md). More in [the community page](docs/community.md).
+
 ## Good to know
 
 - **Privacy** — Your copy of this repository is private. Routines write their notes into it and nowhere else. Nothing is shared back to this public kit. See the [FAQ](docs/faq.md).
@@ -59,8 +70,10 @@ From then on, your routines run on their schedule. You can see, pause, or delete
 - [Getting started, step by step](GETTING-STARTED.md) — the detailed walkthrough of the four steps above
 - [How it works](docs/how-it-works.md) — what a routine actually is, in plain English
 - [Build your own](routines/BUILD-YOUR-OWN.md) — how the builder works, and ideas to steal
+- [The community](docs/community.md) — sharing, wishing, and what's new, all by conversation
 - [Connections, in plain English](docs/connections.md) — what connecting an account means, and how to undo it
 - [FAQ](docs/faq.md) — privacy, cost, safety, and how to stop
+- [What's new](CHANGELOG.md) — the kit's news, in plain words
 
 ## For the curious
 

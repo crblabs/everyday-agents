@@ -80,6 +80,7 @@ When it's done, it tells you when to expect your first report. That's the whole 
 - **Change anything** by going back to [claude.ai/code](https://claude.ai/code), opening your copy, and saying it in words: "make the morning brief earlier", "stop watching that topic", "add the birthday reminders".
 - **Build your own** the same way: "build me a routine that…" — Claude shapes it with you, connects what it needs, and rehearses it live before scheduling anything. [Ideas to steal](routines/BUILD-YOUR-OWN.md).
 - **Check on things**: "are my routines OK?" gets you a health report in plain words.
+- **Meet the community**: "what's new in the kit?" shows what other people contributed (and installs what you like); "share my routine" and "I wish a helper could…" give something back — all by chatting, never by learning GitHub. [How that works.](docs/community.md)
 
 ## The emergency stops
 

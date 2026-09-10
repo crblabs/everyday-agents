@@ -1,0 +1,20 @@
+{
+  "kit_version": "2026-09-10",
+  "upstream": "https://github.com/matt-crblabs/everyday-agents",
+  "routines": [
+    { "name": "Email triage", "dir": "routines/email-triage", "tier": "core", "one_line": "Sorts new inbox mail into your labels, daily", "connectors": ["Gmail"], "author": "the kit", "added": "2026-09-10" },
+    { "name": "Email cleanup", "dir": "routines/email-cleanup", "tier": "core", "one_line": "Archives stale low-priority mail (never deletes)", "connectors": ["Gmail"], "author": "the kit", "added": "2026-09-10" },
+    { "name": "Reply radar", "dir": "routines/reply-radar", "tier": "core", "one_line": "The short daily list of emails that need an answer from you", "connectors": ["Gmail", "Google Calendar"], "author": "the kit", "added": "2026-09-10" },
+    { "name": "Morning brief", "dir": "routines/morning-brief", "tier": "core", "one_line": "Your day on one phone screen, before you're up", "connectors": ["Google Calendar", "Gmail (optional)"], "author": "the kit", "added": "2026-09-10" },
+    { "name": "Week ahead", "dir": "routines/week-ahead", "tier": "core", "one_line": "Sunday lookahead: commitments, conflicts, things to prepare", "connectors": ["Google Calendar", "Gmail (optional)"], "author": "the kit", "added": "2026-09-10" },
+    { "name": "Watchlist", "dir": "routines/watchlist", "tier": "core", "one_line": "Watches your topics; pings only on genuine news", "connectors": ["Google Calendar (optional)"], "author": "the kit", "added": "2026-09-10" },
+    { "name": "Life admin", "dir": "routines/life-admin", "tier": "core", "one_line": "Warns in time about birthdays, renewals, deadlines", "connectors": ["Google Calendar (optional)"], "author": "the kit", "added": "2026-09-10" },
+    { "name": "Weekly review", "dir": "routines/weekly-review", "tier": "core", "one_line": "What your helpers did this week, and what needs you", "connectors": ["Google Calendar (optional)"], "author": "the kit", "added": "2026-09-10" },
+    { "name": "Kit news", "dir": "routines/kit-news", "tier": "core", "one_line": "Tells you when the community adds new helpers to the kit", "connectors": ["Google Calendar (optional)"], "author": "the kit", "added": "2026-09-10" }
+  ],
+  "packs": [
+    { "name": "New-parent pack", "file": "packs/new-parent.md", "one_line": "For the season when nothing fits in your head anymore", "routines": ["life-admin", "email-cleanup", "morning-brief", "weekly-review"] },
+    { "name": "Freelancer pack", "file": "packs/freelancer.md", "one_line": "For people whose inbox is their business", "routines": ["email-triage", "reply-radar", "week-ahead", "watchlist"] },
+    { "name": "Student pack", "file": "packs/student.md", "one_line": "Deadlines, reading, and one calm morning voice", "routines": ["life-admin", "morning-brief", "watchlist", "weekly-review"] }
+  ]
+}
