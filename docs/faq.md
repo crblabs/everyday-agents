@@ -90,7 +90,7 @@ Honest answer: **not today** for the email and calendar helpers — the catalog 
 None. The kit's files are in English, but Claude talks with you, and writes your reports, in your language. Just ask.
 
 **Scheduling fails with something like "no access to a repository".**
-One known one-time click: Claude's GitHub connection needs to be granted access to your copy specifically. Go to [github.com/settings/installations](https://github.com/settings/installations), open **Claude**, and add your repository to its allowed list. Then try again — and yes, "check my routines" knows about this one and will point you here.
+Claude's GitHub connection is granted per repository, and yours isn't on the list. Go to [github.com/settings/installations](https://github.com/settings/installations) (as the account that owns your copy), open **Claude** → **Configure** → *Repository access*: either switch to **All repositories** — the once-and-for-all fix, and a fine choice when the GitHub account exists just for this kit — or add your repository to the selected list. Save, try again. "Check my routines" knows about this one and will point you here.
 
 **My reports started arriving an hour early/late.**
 Daylight-saving time. Schedules run on a fixed world clock (UTC), so when your country changes its clocks, your 7am becomes 6am or 8am. Say "fix my routine times" and Claude recomputes them in two minutes — twice a year, that's the whole maintenance.

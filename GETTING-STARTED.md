@@ -77,10 +77,12 @@ You're granting access to *your* Claude — the same one you chat with — not t
 ### Step 3 — Open your copy with Claude Code
 
 1. Go to [claude.ai/code](https://claude.ai/code) — this is Claude Code, in your browser, nothing to install.
-2. If it asks to connect to your GitHub account, approve it — that's Claude asking for the key to your filing cabinet. (One-time.)
+2. If it asks to connect to your GitHub account, approve it — that's Claude asking for the key to your filing cabinet. (One-time.) When it asks **which repositories** Claude may see, here's the honest guidance:
+   - **Your GitHub account exists just for this kit** (you made it in Part 1)? Choose **All repositories**. There's nothing else on the account to protect, and it covers *future* repositories too — so nothing ever needs re-granting.
+   - **You already use GitHub for other things?** Choose **Only select repositories** and pick your copy — just know that any repository you create later must be added by hand on the same screen.
 3. Open the repository you created in Step 1 (it'll be in the list).
 
-**If your repository is NOT in the list**: GitHub hasn't been told Claude may see it — a permission that lives on GitHub's side, per repository. Go to [github.com/settings/installations](https://github.com/settings/installations) (logged in as the account that owns your copy), open **Claude** → **Configure** → under *Repository access* add your repository → **Save**. Then refresh the list. This same switch is the fix if, later, scheduling a helper fails with an "access to a repository" message.
+**If your repository is NOT in the list**: GitHub hasn't been told Claude may see it. Go to [github.com/settings/installations](https://github.com/settings/installations) (logged in as the account that owns your copy), open **Claude** → **Configure** → under *Repository access* either switch to **All repositories** (fine on a kit-only account, and ends this problem for good) or add your repository to the selected list → **Save**. Then refresh. This same switch is the fix if, later, scheduling a helper fails with an "access to a repository" message.
 
 **The checkpoint** — this is the step that most often goes quietly wrong, so verify it in one line. Ask Claude:
 
