@@ -4,7 +4,25 @@
 
 This is a starter kit that turns [Claude Code](https://claude.com/claude-code) into a set of small personal assistants — *routines* — that run on a schedule, in the cloud, whether your computer is on or not. They can sort your email, prepare your mornings, watch topics you care about, and remind you of the dates that matter — and they report back to you in plain English.
 
-You don't need to know how to code. You don't even need to know what Claude Code or GitHub *are* — if you can use email and a web browser, you're the intended audience, and the [step-by-step guide](GETTING-STARTED.md) explains every word as it comes.
+You don't need to know how to code. You don't even need to know what Claude Code or GitHub *are* — if you can use email and a web browser, you're the intended audience.
+
+## Start here — one message
+
+Open **[claude.ai/code](https://claude.ai/code)** and paste this:
+
+```
+I want my own team of everyday helpers — sort my email, prep my
+mornings, watch the topics I care about, remember what I'd forget.
+
+Their starter kit is at github.com/crblabs/everyday-agents.
+Take me from zero to my first running helpers: my own private copy
+of the kit, the accounts they need, everything. You drive — I'll
+answer questions.
+```
+
+That's genuinely it. Claude reads the kit, interviews you about your life, and about fifteen minutes later your first helpers are scheduled and running — whether your computer is on or not.
+
+*Prefer to see the road before walking it? [Getting started](GETTING-STARTED.md) walks the same path step by step, assuming nothing. In a hurry to know if it fits you? [What you need](#what-you-need--check-before-you-start) is a 20-second check.*
 
 ## What you get
 
@@ -51,23 +69,10 @@ All green? Carry on.
 2. **Connect your accounts.**
    Go to [claude.ai/customize/connectors](https://claude.ai/customize/connectors) and connect **Gmail** and **Google Calendar** (that covers most of the catalog). You're granting access to *your* Claude — not to this kit or its author.
 
-3. **Open Claude Code.**
+3. **Open your copy with Claude Code.**
    Easiest path, no install: go to [claude.ai/code](https://claude.ai/code) and open the repository you created in step 1. (Desktop app or terminal work too.)
 
-4. **Paste this exact message** (fill in the one blank — the name you gave your copy):
-
-   ```
-   Set up my Everyday Agents helpers.
-
-   My kit is my own private copy of github.com/crblabs/everyday-agents
-   (made with "Use this template" — mine is called ______ on my GitHub).
-
-   First make sure you can actually see my copy's files. If you can't,
-   help me open or download it, step by step, assuming I know nothing.
-   Then read its CLAUDE.md and start the setup it describes.
-   ```
-
-   Claude checks it's really inside your copy (and fixes it with you if not), then interviews you for a few minutes, recommends starter routines, and schedules them. That's it.
+4. **Say: "set me up"** — or paste the message from [Start here](#start-here--one-message); both land in the same place. Claude interviews you for a few minutes, recommends starter routines, and schedules them. That's it.
 
 From then on, your routines run on their schedule. You can see, pause, or delete any of them at any time at [claude.ai/code/routines](https://claude.ai/code/routines).
 
