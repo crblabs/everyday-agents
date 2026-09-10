@@ -46,6 +46,8 @@ Two things: a **guided builder** that turns any wish — "I want something that�
 | 🪩 **Mirror week** | Watches one week of your life, then shows you what's eating it |
 | 📡 **Opportunity radar** | Once a month, one evidenced idea for your next helper — or silence |
 
+Routines also come bundled as **[packs](packs/README.md)** — curated sets for a season or a life: new parent, freelancer, student, startup founder, builder, AI team, go-to-market. Say your situation and setup suggests the fit.
+
 Every routine is **read-mostly and cautious by design**: none of them ever sends an email, deletes anything, or spends money. They sort, summarize, and remind. You stay the only person who acts.
 
 ### And then: build your own
@@ -106,6 +108,7 @@ The promises: sharing is always opt-in and previewed, every gift is credited you
 - [Getting started, step by step](GETTING-STARTED.md) — the detailed walkthrough of the four steps above
 - [How it works](docs/how-it-works.md) — what a routine actually is, in plain English
 - [Build your own](routines/BUILD-YOUR-OWN.md) — how the builder works, and ideas to steal
+- [Packs](packs/README.md) — curated bundles for a season or a life, from new parent to AI startup
 - [The community](docs/community.md) — sharing, wishing, and what's new, all by conversation
 - [Connections, in plain English](docs/connections.md) — what connecting an account means, and how to undo it
 - [Power-ups](docs/power-ups.md) — a short curated shelf of admired external skill collections (nothing installed by default)
