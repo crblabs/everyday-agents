@@ -80,6 +80,8 @@ You're granting access to *your* Claude — the same one you chat with — not t
 2. If it asks to connect to your GitHub account, approve it — that's Claude asking for the key to your filing cabinet. (One-time.)
 3. Open the repository you created in Step 1 (it'll be in the list).
 
+**If your repository is NOT in the list**: GitHub hasn't been told Claude may see it — a permission that lives on GitHub's side, per repository. Go to [github.com/settings/installations](https://github.com/settings/installations) (logged in as the account that owns your copy), open **Claude** → **Configure** → under *Repository access* add your repository → **Save**. Then refresh the list. This same switch is the fix if, later, scheduling a helper fails with an "access to a repository" message.
+
 **The checkpoint** — this is the step that most often goes quietly wrong, so verify it in one line. Ask Claude:
 
 ```
