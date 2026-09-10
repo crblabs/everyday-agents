@@ -1,5 +1,13 @@
 # FAQ
 
+## Is this for me?
+
+**I've never used GitHub, and I only vaguely know what Claude is. Really — me?**
+Yes, really. The kit is designed for exactly you: everything happens by chatting in plain language, in your browser, and the [step-by-step guide](../GETTING-STARTED.md) explains each new word as it appears (there are only four). Nothing gets installed, and every step can be undone. If you get lost at any point, typing "I'm lost" into the chat is a completely valid move — explaining this kit is part of Claude's job.
+
+**Do I need to learn GitHub?**
+No. You'll create a free account once (like signing up for any website) and click one green button. From then on, Claude does all the filing; you never work in GitHub yourself.
+
 ## Privacy
 
 **Who can see my stuff?**

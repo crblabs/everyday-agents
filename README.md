@@ -4,7 +4,7 @@
 
 This is a starter kit that turns [Claude Code](https://claude.com/claude-code) into a set of small personal assistants — *routines* — that run on a schedule, in the cloud, whether your computer is on or not. They can sort your email, prepare your mornings, watch topics you care about, and remind you of the dates that matter — and they report back to you in plain English.
 
-You don't need to know how to code. If you can follow four numbered steps and have a conversation, you can set this up.
+You don't need to know how to code. You don't even need to know what Claude Code or GitHub *are* — if you can use email and a web browser, you're the intended audience, and the [step-by-step guide](GETTING-STARTED.md) explains every word as it comes.
 
 ## What you get
 
@@ -27,7 +27,11 @@ Every routine is **read-mostly and cautious by design**: none of them ever sends
 
 The catalog is where most people start — not where they end up. Say **"build me a routine that…"** and Claude walks you through the whole thing, no technical knowledge needed: shaping the idea, connecting any account it requires (guided, click by click), **rehearsing the routine live once so you see exactly what it will do**, then scheduling it. School-mail digests, travel prep, price watches, subscription audits — see [ideas people actually build](routines/BUILD-YOUR-OWN.md).
 
-## Setup — about 15 minutes
+## Setup
+
+**New to all of this?** Follow **[Getting started](GETTING-STARTED.md)** — the same path as below, but assuming nothing: it explains what Claude Code and GitHub are and walks you through creating the two accounts first (a paid Claude plan is the kit's only cost; GitHub is free). Budget 20–30 relaxed minutes.
+
+**Already have a Claude plan and a GitHub account?** The short version, about 15 minutes:
 
 1. **Make your own private copy of this kit.**
    Click the green **"Use this template"** button at the top of this page → **"Create a new repository"**. Name it anything (e.g. `my-agents`) and set it to **Private**. This copy is yours: your helpers will keep their notes in it, and nobody else can see it.
