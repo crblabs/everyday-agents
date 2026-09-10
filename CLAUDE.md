@@ -12,7 +12,9 @@ There are two very different situations in which you are reading this file:
 | Situation | Read this |
 |---|---|
 | Fresh copy, owner says "set me up" (or anything like it) | Run the **setup** skill |
-| Owner wants one more routine, or to change one | Run the **add-routine** skill |
+| Owner wants a catalog routine, or to change/pause one | Run the **add-routine** skill |
+| Owner describes a wish the catalog doesn't cover ("I want something that…") | Run the **build-routine** skill |
+| Anything about connecting/disconnecting accounts | `docs/connections.md` |
 | Owner asks "are my routines OK?", "what ran?", anything health-shaped | Run the **checkup** skill |
 | You need to know who the owner is | `my/profile.md` — always read this first |
 | You need to know what's installed | `my/routines.md` |
@@ -41,7 +43,8 @@ There are two very different situations in which you are reading this file:
 When the owner's request matches a skill, invoke it via the Skill tool — when in doubt, invoke it:
 
 - "set me up", "get started", "install", first conversation in a fresh copy → **setup**
-- "add …", "I also want …", "change my morning brief", "run it at 8 instead" → **add-routine**
+- "add the morning brief", "change my triage labels", "run it at 8 instead", "pause the watchlist" → **add-routine**
+- "build me a routine that…", "I want something that…", "could a helper do X?" — any wish beyond the catalog → **build-routine**
 - "is everything working?", "what did my agents do?", "I didn't get my brief" → **checkup**
 
 Anything else (questions, curiosity, edits to their own notes): just help, in plain language, within the rules above.

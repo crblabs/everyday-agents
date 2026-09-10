@@ -8,7 +8,7 @@ You don't need to know how to code. If you can follow four numbered steps and ha
 
 ## What you get
 
-A catalog of ready-made routines. During setup, Claude interviews you and recommends the ones that fit your life — you'll typically start with two or three:
+Two things: a **guided builder** that turns any wish — "I want something that…" — into a working routine tailored to you, and a **catalog of starting points** to steal from. During setup, Claude interviews you and recommends what fits your life; you'll typically start with two or three:
 
 | Routine | What it does for you |
 |---|---|
@@ -22,6 +22,10 @@ A catalog of ready-made routines. During setup, Claude interviews you and recomm
 | 🪞 **Weekly review** | A weekly recap of what your agents did and what needs a decision from you |
 
 Every routine is **read-mostly and cautious by design**: none of them ever sends an email, deletes anything, or spends money. They sort, summarize, and remind. You stay the only person who acts.
+
+### And then: build your own
+
+The catalog is where most people start — not where they end up. Say **"build me a routine that…"** and Claude walks you through the whole thing, no technical knowledge needed: shaping the idea, connecting any account it requires (guided, click by click), **rehearsing the routine live once so you see exactly what it will do**, then scheduling it. School-mail digests, travel prep, price watches, subscription audits — see [ideas people actually build](routines/BUILD-YOUR-OWN.md).
 
 ## Setup — about 15 minutes
 
@@ -50,6 +54,8 @@ From then on, your routines run on their schedule. You can see, pause, or delete
 
 - [Getting started, step by step](GETTING-STARTED.md) — the detailed walkthrough of the four steps above
 - [How it works](docs/how-it-works.md) — what a routine actually is, in plain English
+- [Build your own](routines/BUILD-YOUR-OWN.md) — how the builder works, and ideas to steal
+- [Connections, in plain English](docs/connections.md) — what connecting an account means, and how to undo it
 - [FAQ](docs/faq.md) — privacy, cost, safety, and how to stop
 
 ## For the curious

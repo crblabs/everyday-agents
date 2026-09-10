@@ -44,8 +44,8 @@ Routines wait; nothing breaks. You'd see gaps in the reports, and asking "check 
 **How do I change what a routine does, or when?**
 Open your copy in Claude Code and say it in words: "run the brief at 7 instead of 8", "stop labeling newsletters". Claude updates the schedule and the notebook for you.
 
-**Can I add my own routine ideas?**
-Yes — say "add a routine" and describe what you want in plain words. The catalog is a starting point, not a limit.
+**Can I build my own routines?**
+Yes — that's the point. Say **"build me a routine that…"** and describe what you want in plain words. Claude shapes the idea with you, walks you through connecting any account it needs, rehearses the routine live once so you see exactly what it will do, and only then schedules it. The catalog is a starting point, not a limit — see [Build your own](../routines/BUILD-YOUR-OWN.md).
 
 ## Odds and ends
 
@@ -53,7 +53,7 @@ Yes — say "add a routine" and describe what you want in plain words. The catal
 No. Routines run in Anthropic's cloud. Everything works with your machine off.
 
 **Does this work with Outlook / iCloud / other calendars?**
-The v1 catalog is built around Gmail and Google Calendar, because those connectors are solid today. Other providers can work if a connector exists for them — ask Claude what's available.
+The v1 catalog is built around Gmail and Google Calendar, because those connections are solid today. Other providers can work if a connection exists for them — ask Claude what's available, and see [Connections, in plain English](connections.md).
 
 **I use Claude in a language other than English — problem?**
 None. The kit's files are in English, but Claude talks with you, and writes your reports, in your language. Just ask.

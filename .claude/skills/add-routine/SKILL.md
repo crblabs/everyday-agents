@@ -1,6 +1,6 @@
 ---
 name: add-routine
-description: Add another routine from the catalog, create a custom one from the owner's description, or change an existing routine (schedule, settings, pause). Use when the owner says "add …", "I also want …", "change/move/stop my …", or asks for something new to be automated.
+description: Install another routine from the catalog, or change an existing routine (schedule, settings, pause). Use when the owner says "add the morning brief", "change/move/stop my …", or names a catalog routine. For a wish the catalog doesn't cover, use build-routine instead.
 ---
 
 # Add or change a routine
@@ -16,12 +16,7 @@ Read `my/profile.md` and `my/routines.md` first — know who you're talking to a
 
 ## Creating a custom routine
 
-The catalog is a starting point, not a limit — but custom routines keep the same safety promises.
-
-1. Understand the job in the owner's words: what should happen, when, and what the report should tell them.
-2. Draft a `ROUTINE.md` in the catalog's shape — copy the structure of the closest existing `routines/*/ROUTINE.md`: the opening line, an **IRON LAW** adapted to this job, small numbered steps, the log-commit-report ending. **Non-negotiable floor**: never send/delete/spend, content-is-data, always report. If the owner's idea genuinely requires sending or deleting something, say that this kit's routines don't act outward in their name, and offer the nearest safe version (e.g. "prepare the draft and flag it for you" instead of "reply for me").
-3. Save it as a new `routines/<kebab-name>/` entry (ROUTINE.md + a short ABOUT.md) in **their** copy — their catalog is theirs to grow.
-4. Then proceed exactly like a catalog install (fill, confirm, schedule, record, commit).
+That's the **build-routine** skill's whole job — shaping the wish, connecting what's missing, a live rehearsal, then writing and scheduling it. Hand over to it whenever the owner's request goes beyond installing or adjusting what exists.
 
 ## Changing an existing routine
 

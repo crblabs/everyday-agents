@@ -55,6 +55,7 @@ When it's done, it will tell you when to expect your first report.
 - **Where reports arrive.** Each routine tells you at setup where its report lands — for most, it's a small calendar event on your day (easy to glance at on your phone) and a note in your copy's history.
 - **See or pause your routines** any time at [claude.ai/code/routines](https://claude.ai/code/routines). Pausing is instant and harmless.
 - **Change anything** by opening your copy with Claude Code again and just saying so: "make the morning brief earlier", "stop watching that topic", "add the birthday reminders".
+- **Build your own** the same way: "build me a routine that…" — Claude shapes it with you, connects what it needs, and rehearses it live before scheduling anything. [Ideas to steal](routines/BUILD-YOUR-OWN.md).
 - **Check on things** the same way: "are my routines OK?" gets you a health report.
 
 ## The emergency stops

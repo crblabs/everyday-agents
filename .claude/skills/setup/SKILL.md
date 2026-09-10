@@ -25,11 +25,13 @@ Learn, conversationally (not as a form):
 
 From their answers, pick the two or three best-fit routines from `routines/` and read each one's `ABOUT.md` and `ROUTINE.md`. Present each recommendation as: what it does for them, when it would run, where its report lands. Starting small is deliberate — say so, and mention they can add more any day with "add a routine".
 
+If the interview surfaced a need the catalog doesn't cover, don't force a poor fit and don't lose it either: name it back to them ("a helper for X doesn't exist yet — we can build it together after your starters are running, just say 'build me a routine'"), and note it in `my/profile.md`. The **build-routine** skill handles that path.
+
 Take their picks. For each, gather what its `ROUTINE.md` placeholders need (label names, brief time, watch topics, dates…). Prefer sensible defaults offered for confirmation over open questions.
 
 ## Step 3 — Check connections
 
-Each `ABOUT.md` names the connectors its routine needs (Gmail, Google Calendar, …). Verify those are connected — if the scheduling tool below is available, its connector list is the truth; otherwise ask the owner to check [claude.ai/customize/connectors](https://claude.ai/customize/connectors). If one is missing, pause setup for that routine, link them there, and wait — do not schedule a routine whose connector is absent.
+Each `ABOUT.md` names the connectors its routine needs (Gmail, Google Calendar, …). Verify those are connected — if the scheduling tool below is available, its connector list is the truth; otherwise ask the owner to check [claude.ai/customize/connectors](https://claude.ai/customize/connectors). If one is missing, walk them through connecting it the way `docs/connections.md` describes — exactly what to click and what the approval screen will say — then wait, and verify with a harmless read before moving on. Do not schedule a routine whose connector is absent.
 
 ## Step 4 — Fill and confirm each prompt
 
@@ -61,4 +63,4 @@ Push if you can; a push failure is reported in plain words, never silently swall
 
 ## Step 7 — Close the loop
 
-Tell the owner: which helpers now exist, when the first one runs, **where its report will appear**, and the two magic phrases — "check my routines" and "add a routine". Offer a test-fire of one routine now if they'd like to see a report immediately.
+Tell the owner: which helpers now exist, when the first one runs, **where its report will appear**, and the three magic phrases — "check my routines", "add a routine", and "build me a routine" for anything the catalog doesn't cover. Offer a test-fire of one routine now if they'd like to see a report immediately.
