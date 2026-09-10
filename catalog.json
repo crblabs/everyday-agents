@@ -17,6 +17,10 @@
   "packs": [
     { "name": "New-parent pack", "file": "packs/new-parent.md", "one_line": "For the season when nothing fits in your head anymore", "routines": ["life-admin", "email-cleanup", "morning-brief", "weekly-review"] },
     { "name": "Freelancer pack", "file": "packs/freelancer.md", "one_line": "For people whose inbox is their business", "routines": ["email-triage", "reply-radar", "week-ahead", "watchlist"] },
-    { "name": "Student pack", "file": "packs/student.md", "one_line": "Deadlines, reading, and one calm morning voice", "routines": ["life-admin", "morning-brief", "watchlist", "weekly-review"] }
+    { "name": "Student pack", "file": "packs/student.md", "one_line": "Deadlines, reading, and one calm morning voice", "routines": ["life-admin", "morning-brief", "watchlist", "weekly-review"] },
+    { "name": "Founder pack", "file": "packs/founder.md", "one_line": "Running product, go-to-market, and admin alone", "routines": ["reply-radar", "morning-brief"] },
+    { "name": "Builder pack", "file": "packs/builder.md", "one_line": "Whoever owns the repo and drowns in its notifications", "routines": ["kit-news"] },
+    { "name": "AI-lab pack", "file": "packs/ai-lab.md", "one_line": "Teams building on AI, where the ground moves weekly", "routines": [] },
+    { "name": "Go-to-market pack", "file": "packs/go-to-market.md", "one_line": "Early GTM: mentions, pipeline, launches, content", "routines": [] }
   ]
 }

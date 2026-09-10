@@ -2,6 +2,10 @@
 
 Newest first. Your **kit-news** helper reads this page — and "what's new?" said to Claude walks you through anything here.
 
+## 2026-09-10 — Four startup packs
+
+- New packs for tech/AI startup people: [🚀 Founder](packs/founder.md), [🧑‍💻 Builder](packs/builder.md), [🤖 AI-lab](packs/ai-lab.md), [📣 Go-to-market](packs/go-to-market.md) — grounded in what people actually run on schedules (briefings, follow-up tracking, competitor and model-release watching, CI digests). Honest about maturity: ✅ installs, 🔨 twenty-minute builds, and 🌠 wishes for the connections that don't exist yet (Slack/Discord team pulse, API billing sentinel, X/LinkedIn social radar) — each filed openly in the tracker for anyone to champion.
+
 ## 2026-09-10 — The power-ups shelf opens
 
 - A short, curated shelf of external skill collections we admire — [Pawel Huryn's PM Skills](https://github.com/phuryn/pm-skills), [Garry Tan's gstack](https://github.com/garrytan/gstack), [obra's Superpowers](https://github.com/obra/superpowers) — with honest trust lines and an opinionated who-should-pick-what. Nothing installs by default; "add the PM skills" or "power up my routines with…" does it on your explicit ask, vendored with provenance, updated only with your consent. [The shelf.](docs/power-ups.md)
