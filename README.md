@@ -22,7 +22,9 @@ answer questions.
 
 That's genuinely it. Claude reads the kit, interviews you about your life, and about fifteen minutes later your first helpers are scheduled and running — whether your computer is on or not.
 
-*Prefer to see the road before walking it? [Getting started](GETTING-STARTED.md) walks the same path step by step, assuming nothing. In a hurry to know if it fits you? [What you need](#what-you-need--check-before-you-start) is a 20-second check.*
+Two honest notes before you paste: this needs a **paid Claude plan** ([the 20-second check below](#what-you-need--check-before-you-start) says exactly what), and if claude.ai/code first asks you to **connect GitHub** or **pick a repository**, just go along — connecting with zero repositories is fine, and picking this very kit (`crblabs/everyday-agents`) is a perfectly good place to start: Claude will make your own private copy from there.
+
+*Prefer to see the road before walking it? [Getting started](GETTING-STARTED.md) walks the same path step by step, assuming nothing.*
 
 ## What you get
 
@@ -38,6 +40,7 @@ Two things: a **guided builder** that turns any wish — "I want something that�
 | 🔭 **Watchlist** | Keeps an eye on topics or websites you care about; tells you only when there's news |
 | 🎂 **Life admin** | Remembers birthdays, renewals, and deadlines — and warns you in time to act |
 | 🪞 **Weekly review** | A weekly recap of what your agents did and what needs a decision from you |
+| 🧰 **Kit news** | Tells you when the community adds new helpers to this kit |
 
 Every routine is **read-mostly and cautious by design**: none of them ever sends an email, deletes anything, or spends money. They sort, summarize, and remind. You stay the only person who acts.
 
