@@ -17,7 +17,7 @@ Anywhere those four exist, the sheets in `routines/` can run. The *interactive* 
 |---|---|---|---|
 | **Claude Code** (claude.ai/code) | native — skills auto-route | **Routines** (claude.ai/code/routines) + connectors | ✅ **Verified reference** — every claim in the docs was field-tested here |
 | **OpenAI Codex** | reads `AGENTS.md` natively; skills are the same open format | **Automations** (cron + prompt + skills); Gmail-class connectors vary | 🔎 Ingredients present, **unverified** — [be the champion](https://github.com/crblabs/everyday-agents/issues/7) |
-| **Grok Bots** | can read the repo and follow sheets | **Bot routines** on a persistent cloud computer; Gmail/Calendar plugins exist | 🔎 Ingredients present, **unverified** — and note Grok's culture includes agents that *act outward* (calls, purchases); the kit's floor forbids that, so fidelity matters doubly |
+| **Grok Bots** | can read the repo and follow sheets | **Bot routines** on a persistent cloud computer; Gmail/Calendar plugins exist | 🔎 Ingredients present, **unverified** — and note Grok's culture includes agents that *act outward* (calls, purchases); the kit's floor forbids that, so fidelity matters doubly — [champion wanted](https://github.com/crblabs/everyday-agents/issues/8) |
 | **Gemini CLI, Cursor, others** | Agent Skills format is shared; `AGENTS.md` routes | check what your tool schedules | 🔎 Unverified |
 
 **What "unverified" means**: the sheets are readable and the ingredients exist, but nobody has walked the full loop there and reported back. The first person who does becomes that port's champion — file a field report and the map updates.
