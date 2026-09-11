@@ -65,7 +65,7 @@ Convert each agreed schedule to a UTC cron expression (minimum interval: 1 hour;
 
 Write, then commit (message: `setup <YYYY-MM-DD>: onboarded <first name>, installed <routine names>`):
 
-- `my/profile.md` — name, timezone, the useful context from the interview, preferences. This is the file every routine reads first; keep it current and free of anything the owner wouldn't want written down.
+- `my/profile.md` — name, timezone, the useful context from the interview, preferences. This is the file every routine reads first; keep it current and free of anything the owner wouldn't want written down. Tag each fact's source per the kit convention — *(you told me — date)* for interview answers, *(assumed — check with me before relying on it)* for anything you inferred; an assumed fact must never drive an action.
 - `my/routines.md` — one entry per installed routine: name, what it does in one line, schedule (local **and** UTC cron), routine link if you have it, date installed.
 - Config files any chosen routine needs (`my/dates.md`, `my/watchlist.md`) — filled from the interview.
 

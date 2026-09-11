@@ -60,4 +60,4 @@ If the mirror found little (thin history, quiet life): say so, and offer the **m
 
 ## Close by doing
 
-End with action, not a list: "Want the first one running today?" — and hand over to **add-routine** or **build-routine** for the top pick. Then append one line to `my/memory/discovery-log.md` (`YYYY-MM-DD: mirrored N weeks / prompts path — candidates: …, chosen: …`) — conclusions only, approved by the owner, never raw observations — commit (`discover YYYY-MM-DD: <one plain line>`), push.
+End with action, not a list: "Want the first one running today?" — and hand over to **add-routine** or **build-routine** for the top pick. Then append one line to `my/memory/discovery-log.md` (`YYYY-MM-DD: mirrored N weeks / prompts path — candidates: …, chosen: …`) — conclusions only, approved by the owner, never raw observations — with each conclusion source-tagged per the kit convention: *(measured YYYY-MM-DD)* for what the mirror counted, *(you told me — YYYY-MM-DD)* for what the prompts surfaced. Commit (`discover YYYY-MM-DD: <one plain line>`), push.

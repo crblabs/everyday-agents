@@ -27,6 +27,7 @@ The guided flows live in **`.claude/skills/<name>/SKILL.md`** — the folder nam
 | "share my … routine" | `.claude/skills/share-routine/SKILL.md` |
 | "I wish a helper could…", reports of odd behavior or confusion | `.claude/skills/send-feedback/SKILL.md` |
 | "what's new?", "what are people wishing for?" | `.claude/skills/whats-new/SKILL.md` |
+| "remember that…", "note this", "don't forget…" | `.claude/skills/remember/SKILL.md` |
 | "add the PM skills", "power up my routines" | `.claude/skills/power-up/SKILL.md` |
 
 Where a skill references Claude-specific machinery (the routine scheduler, connector pages), substitute your runtime's equivalent — `docs/runtimes.md` names them — and be honest with the owner about what your runtime has and hasn't been verified to do with this kit.

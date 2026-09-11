@@ -20,6 +20,8 @@ The owner wants to know things are working, or why one didn't. Answer both the w
    - **Reports arriving an hour off** → daylight-saving shift (schedules are fixed UTC); offer to recompute the crons
    - **Something else** → describe what you actually see, in words; don't guess
 
+5. **The notebook's health** (same sweep the weekly review runs, but here you may *fix* with consent, being a conversation): expired dates.md entries, dead watchlist items, a lingering finished mirror-week, profile facts contradicted by the logs, *told/assumed* facts gone stale where wrongness would matter, orphaned config for removed helpers. Propose each fix in plain words, apply on their yes, commit.
+
 ## Report
 
 Structure, always:

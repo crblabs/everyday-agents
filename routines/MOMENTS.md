@@ -16,6 +16,7 @@ Nobody can list "the tasks I should automate" — that's normal, and it's not ho
 | **Receipts and documents you forward to yourself "to deal with later"** | Build it: a paper trail ("build me a routine") |
 | **Three emails to agree on one meeting time** | Honest answer: not automatable by this kit yet — [wish for it](../docs/community.md) |
 | **"I know something's eating my time, I just couldn't tell you what"** | Say **"I don't know what I need"** — Claude looks at your actual weeks and shows you |
+| **The fact you know you were told, but can't find** — the boiler guy's name, the wifi password, what Ana can't eat | Say **"remember that…"** once — the notebook keeps it, with the date you told it |
 
 Two things this page is built on:
 

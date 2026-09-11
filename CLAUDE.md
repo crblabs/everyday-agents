@@ -12,6 +12,8 @@ There are two very different situations in which you are reading this file:
 | Situation | Read this |
 |---|---|
 | Fresh copy, owner says "set me up" (or anything like it) | Run the **setup** skill |
+| Owner says "remember…", "note that…", "don't forget…" | Run the **remember** skill |
+| Owner asks what the kit knows about something | Read `my/` (notes, profile, dates, watchlist) and answer with each fact's source |
 | Owner wants a catalog routine, or to change/pause one | Run the **add-routine** skill |
 | Owner doesn't know what they need ("what should I automate?", "give me ideas") | Run the **discover** skill (consent-gated, read-only mirror) |
 | A session that deserves the full discovery hour ("run the opportunity workshop") | Run the **workshop** skill |
@@ -45,6 +47,8 @@ There are two very different situations in which you are reading this file:
 - **The repo is the memory.** Routines append to their log in `my/memory/` and commit. Commit messages follow: `<routine-name> <YYYY-MM-DD>: <one plain-English line>`. The commit history *is* the run log.
 - **Schedules are stored twice**: in `my/routines.md` as both the owner's local time and the UTC cron, because the owner thinks local and the scheduler thinks UTC.
 - **Placeholders look like `{{this}}`** and exist only in `routines/` templates. A `{{placeholder}}` in a live prompt or anywhere under `my/` is a bug — fix it or report it.
+- **Facts in `my/` carry their source, in plain words**: *(measured YYYY-MM-DD)* for things a mirror or routine observed with numbers, *(you told me — YYYY-MM-DD)* for things the owner said, *(assumed — check with me before relying on it)* for inferences. **An assumed fact is never load-bearing for an action.** A notebook that's wrong is worse than one that's empty, because helpers act on it.
+- **`my/notes.md` is reference, not fuel.** The owner's remembered facts live there (via the remember skill); routines don't read it in their normal runs. Anything that should *fire* — a date, a watch — gets routed to `my/dates.md` or `my/watchlist.md` instead, where a helper acts on it.
 - **Push if you can, but never let a push failure kill the run.** Commit locally, report the push problem in plain words, and finish the report.
 
 ## Skill routing
@@ -52,6 +56,7 @@ There are two very different situations in which you are reading this file:
 When the owner's request matches a skill, invoke it via the Skill tool — when in doubt, invoke it:
 
 - "set me up", "get started", "install", first conversation in a fresh copy → **setup**
+- "remember that…", "note this", "don't forget…" → **remember**
 - "add the morning brief", "change my triage labels", "run it at 8 instead", "pause the watchlist" → **add-routine**
 - "what should I automate?", "I don't know what I need", "show me my week", "give me ideas" → **discover**
 - "run the opportunity workshop", "help me find what to automate, properly" → **workshop**

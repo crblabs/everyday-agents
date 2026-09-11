@@ -2,6 +2,12 @@
 
 Newest first. Your **kit-news** helper reads this page — and "what's new?" said to Claude walks you through anything here.
 
+## 2026-09-11 — The notebook grows up
+
+- **"Remember that…"** now has a home: the new remember flow routes what you tell Claude to where it *works* — dates that should warn you land with the life-admin helper, topics to watch join the watchlist, facts about you reach your profile, and everything else keeps in `my/notes.md`, findable forever and acted on never.
+- **Every fact now carries its source, in plain words** — *(measured)*, *(you told me)*, or *(assumed — check with me first)* — and an assumed fact never drives an action.
+- **The weekly review now checks that your notebook still tells the truth**: expired dates, dead watchlist items, contradicted or stale facts get flagged (helpers flag; only conversations fix). Inspired by [Pawel Huryn's pm-brain](https://github.com/phuryn/pm-brain), whose provenance-and-sweep discipline we admired and translated for everyday life.
+
 ## 2026-09-10 — Portable on purpose
 
 - People kept saying "it's great but I use Codex/Grok" — so the kit now says exactly what travels. New [`AGENTS.md`](AGENTS.md) orients any AI agent (the flows use the open Agent Skills format that Codex, Cursor, and 30+ tools read); new [runtimes map](docs/runtimes.md) names the four things a scheduler must provide, which runtimes have the ingredients, and the honest status of each: **Claude is the verified reference; Codex and Grok ports are open wishes waiting for a champion.** The safety floor travels as prose — the map says so plainly.
