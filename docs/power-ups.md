@@ -11,6 +11,7 @@ The kit is complete on its own, and **installs none of these by default**. But s
 - **For**: anyone doing product work — founders included.
 - **Install** (interactive sessions, official mechanism): `claude plugin marketplace add phuryn/pm-skills`, then install the plugins you want.
 - **Trust line**: distributed through Claude's plugin marketplace; MIT-licensed; updates when you update it.
+- **Its companion, [pm-brain](https://github.com/phuryn/pm-brain)**: a markdown second brain for PM knowledge — ingest → synthesize → weekly sweep, every claim provenance-tagged, all of it plain files in your repo. Philosophically a sibling of this kit (*"the memory lives in your repo, not in Claude"*), which makes it the most natural vendoring source on this shelf for product-work routines.
 
 ### 🏭 gstack — what Garry is doing
 
